@@ -48,7 +48,7 @@ function Hero({ socialLinks }) {
         <div className="md:w-1/2 flex justify-center">
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white dark:border-gray-700 shadow-xl">
             <img
-              src="./src/components/prof.jpg"
+              src="../prof.jpg"
               alt="Edwin Jojie"
               className="w-full h-full object-cover"
             />

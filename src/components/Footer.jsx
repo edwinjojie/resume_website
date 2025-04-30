@@ -1,16 +1,6 @@
 import React from 'react';
 
-interface SocialLink {
-  icon: React.ReactNode;
-  href: string;
-  label: string;
-}
-
-interface FooterProps {
-  socialLinks: SocialLink[];
-}
-
-const Footer: React.FC<FooterProps> = ({ socialLinks }) => {
+const Footer = ({ socialLinks }) => {
   const currentYear = new Date().getFullYear();
   
   return (

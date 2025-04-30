@@ -1,17 +1,8 @@
 import React from 'react';
 import { Github, ExternalLink } from 'lucide-react';
 
-interface Project {
-  title: string;
-  description: string;
-  image: string;
-  technologies: string[];
-  github?: string;
-  live?: string;
-}
-
 // Edit this array to update your projects
-const projects: Project[] = [
+const projects = [
   {
     title: "E-Commerce Platform",
     description: "A fully responsive e-commerce platform with product filtering, user authentication, and payment processing integration.",
@@ -30,7 +21,7 @@ const projects: Project[] = [
   }
 ];
 
-const Projects: React.FC = () => {
+const Projects = () => {
   return (
     <section id="projects" className="py-20 bg-gray-50 dark:bg-gray-900">
       <div className="container mx-auto px-4">
