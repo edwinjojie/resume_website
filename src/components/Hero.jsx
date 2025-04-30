@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
-import profilePic from '../prof.jpg'; // Import the image
+import profilePic from '../prof.jpg';
 
 function Hero({ socialLinks }) {
   return (
@@ -8,13 +8,13 @@ function Hero({ socialLinks }) {
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 mb-10 md:mb-0">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-blue-600 dark:text-blue-400">
-            Edwin Jojie
+            Edwin Jojie Varghese
           </h1>
           <h2 className="text-2xl md:text-3xl font-medium text-gray-700 dark:text-gray-300 mb-6">
             Software Developer
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-lg">
-            Passionate developer dedicated to creating efficient solutions and delivering exceptional user experiences.
+            Passionate software developer with a strong focus on AI/ML and full-stack development. Dedicated to solving real-world problems through innovative computer vision, deep learning, and scalable web applications, I thrive on creating impactful solutions that blend technology and creativity.
           </p>
           <div className="flex space-x-4 mb-8">
             {socialLinks.map((link) => (
@@ -50,7 +50,7 @@ function Hero({ socialLinks }) {
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white dark:border-gray-700 shadow-xl">
             <img
               src={profilePic}
-              alt="Edwin Jojie"
+              alt="Edwin Jojie Varghese"
               className="w-full h-full object-cover"
             />
           </div>

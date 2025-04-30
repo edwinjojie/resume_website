@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { Sun, Moon, Mail, Linkedin, Github, ArrowRight, Menu, X } from 'lucide-react';
+import { Sun, Moon, Mail, Linkedin, Github, Globe, ArrowRight, Menu, X } from 'lucide-react';
 import Hero from './components/Hero';
 import About from './components/About';
 import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Achievements from './components/Achievements';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -33,6 +34,7 @@ function App() {
     { name: 'Experience', href: '#experience' },
     { name: 'Skills', href: '#skills' },
     { name: 'Projects', href: '#projects' },
+    { name: 'Achievements', href: '#achievements' },
     { name: 'Contact', href: '#contact' },
   ];
 
@@ -51,6 +53,11 @@ function App() {
       icon: <Github size={20} />, 
       href: 'https://github.com/edwinjojie',
       label: 'GitHub'
+    },
+    { 
+      icon: <Globe size={20} />, 
+      href: 'https://zingv-arithmetic-5cc08b.netlify.app',
+      label: 'Personal Website'
     },
   ];
 
@@ -145,6 +152,7 @@ function App() {
         <Experience />
         <Skills />
         <Projects />
+        <Achievements />
         <Contact />
       </main>
 

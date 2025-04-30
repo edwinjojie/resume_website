@@ -2,28 +2,36 @@ import React from 'react';
 
 const experiences = [
   {
-    title: "Software Developer",
-    company: "Tech Innovations Inc.",
-    period: "Jan 2023 - Present",
+    title: "Full Stack Developer Intern",
+    company: "Magnory Pvt Ltd",
+    period: "Dec 2024 - Jan 2025",
     description: [
-      "Developed and maintained web applications using React and Node.js",
-      "Implemented responsive designs and optimized for mobile devices",
-      "Collaborated with cross-functional teams to deliver high-quality software solutions",
-      "Reduced application load time by 40% through code optimization"
+      "Developed real-world applications customized for client requirements",
+      "Designed and built integrated web and desktop interfaces using React, Node.js, and Electron",
+      "Implemented Firebase as the backend for efficient data management"
     ],
-    technologies: ["React", "Node.js", "TypeScript", "MongoDB", "Docker"]
+    technologies: ["React", "Node.js", "Electron", "Firebase"]
   },
   {
-    title: "Junior Developer",
-    company: "Digital Solutions Ltd.",
-    period: "Jun 2021 - Dec 2022",
+    title: "AI/ML Intern",
+    company: "Smart City Pvt Ltd, Trivandrum, Kerala",
+    period: "Dec 2024 - Present",
     description: [
-      "Assisted in the development of customer-facing web applications",
-      "Participated in code reviews and implemented feedback to improve code quality",
-      "Created and maintained documentation for internal processes",
-      "Collaborated with design team to implement UI/UX improvements"
+      "Developed a deployable system to monitor illegal trash dumping using city surveillance cameras, enhancing urban cleanliness",
+      "Utilized vision-based AI models, experimenting with multiple frameworks to identify the optimal solution",
+      "Contributed to creating a greener, law-compliant city environment through AI-driven monitoring"
     ],
-    technologies: ["JavaScript", "HTML/CSS", "Git", "RESTful APIs", "Bootstrap"]
+    technologies: ["OpenCV", "TensorFlow", "PyTorch", "YOLO", "Tesseract"]
+  },
+  {
+    title: "Student Intern",
+    company: "ICT, Trivandrum, Kerala",
+    period: "Jul 2024 - Aug 2024",
+    description: [
+      "Applied MERN full-stack development to real-world scenarios, creating functional web applications",
+      "Built multiple web interfaces and applications tailored to project requirements"
+    ],
+    technologies: ["React", "Node.js", "Express", "MongoDB"]
   }
 ];
 
@@ -32,7 +40,7 @@ function Experience() {
     <section id="experience" className="py-20 bg-gray-50 dark:bg-gray-900">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-12 text-center text-blue-600 dark:text-blue-400">
-          Professional Experience
+          Professional Experience & Internships
         </h2>
         <div className="max-w-4xl mx-auto">
           <div className="relative pl-8 border-l-2 border-blue-200 dark:border-blue-900 space-y-12">

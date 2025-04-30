@@ -1,23 +1,37 @@
 import React from 'react';
 import { Github, ExternalLink } from 'lucide-react';
 
-// Edit this array to update your projects
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A fully responsive e-commerce platform with product filtering, user authentication, and payment processing integration.",
-    image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800",
-    technologies: ["React", "Node.js", "MongoDB", "Express", "Stripe API"],
-    github: "https://github.com/edwinjojie/ecommerce-platform",
-    live: "https://ecommerce-demo.example.com"
+    title: "Covid Cases Management System",
+    description: "A Python-MySQL system for managing and analyzing COVID-19 cases, featuring multilevel authentication, data entry, analysis tools, and graphical visualizations.",
+    image: "https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=800",
+    technologies: ["Python", "MySQL"],
+    github: "https://github.com/edwinjojie/covid-management"
   },
   {
-    title: "Task Management App",
-    description: "A collaborative task management application with real-time updates, task assignment, and progress tracking.",
-    image: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800",
-    technologies: ["React", "Firebase", "Material UI", "Redux"],
-    github: "https://github.com/edwinjojie/task-management",
-    live: "https://task-app-demo.example.com"
+    title: "Custom Trip Planning Website",
+    description: "A dynamic trip planning website for tourists, offering maps, transportation options, authorized guides, a chatbot for trip discussions, and a translator for enhanced user experience.",
+    image: "https://images.pexels.com/photos/346715/pexels-photo-346715.jpeg?auto=compress&cs=tinysrgb&w=800",
+    technologies: ["React", "Node.js", "Express", "MongoDB"],
+    github: "https://github.com/edwinjojie/trip-planner",
+    live: "https://trip-planner-demo.netlify.app"
+  },
+  {
+    title: "Waste Disposal Detection System",
+    description: "An AI-driven system using vision-based models to monitor illegal waste disposal via surveillance cameras, enabling authorities to enforce regulations and promote a cleaner city.",
+    image: "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=800",
+    technologies: ["OpenCV", "TensorFlow", "PyTorch", "YOLO", "Tesseract"],
+    github: "https://github.com/edwinjojie/waste-disposal",
+    live: "https://waste-disposal-demo.netlify.app"
+  },
+  {
+    title: "Tail Assignment Problem in Flight Scheduling",
+    description: "A sustainable flight scheduling solution using Reinforcement Learning and OR Tools, optimizing assignments for flights, aircraft, and crews with a focus on environmental impact.",
+    image: "https://images.pexels.com/photos/46148/aircraft-jet-landing-cloud-46148.jpeg?auto=compress&cs=tinysrgb&w=800",
+    technologies: ["Python", "Reinforcement Learning", "OR Tools"],
+    github: "https://github.com/edwinjojie/tail-assignment",
+    live: "https://tail-assignment-demo.netlify.app"
   }
 ];
 

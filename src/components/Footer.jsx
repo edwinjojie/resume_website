@@ -9,7 +9,7 @@ const Footer = ({ socialLinks }) => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <a href="#" className="text-xl font-bold text-blue-600 dark:text-blue-400">
-              Edwin Jojie
+              Edwin Jojie Varghese
             </a>
             <p className="text-gray-600 dark:text-gray-400 mt-2">
               &copy; {currentYear} All rights reserved.
@@ -43,6 +43,9 @@ const Footer = ({ socialLinks }) => {
             </a>
             <a href="#projects" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
               Projects
+            </a>
+            <a href="#achievements" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+              Achievements
             </a>
             <a href="#contact" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
               Contact
