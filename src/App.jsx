@@ -56,7 +56,7 @@ function App() {
     },
     { 
       icon: <Globe size={20} />, 
-      href: 'https://zingv-arithmetic-5cc08b.netlify.app',
+      href: 'https://zingy-arithmetic-5cc08b.netlify.app/',
       label: 'Personal Website'
     },
   ];
