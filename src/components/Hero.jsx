@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
-import profilePic from '../prof.jpg';
+import profilePic from '../images/profile.jpeg';
 
 function Hero({ socialLinks }) {
   return (

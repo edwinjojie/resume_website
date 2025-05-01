@@ -1,37 +1,52 @@
 import React from 'react';
 import { Github, ExternalLink } from 'lucide-react';
+import pic1 from '../images/pic1.jpeg';
+import pic2 from '../images/pic_veh.jpeg';
 
 const projects = [
   {
     title: "Covid Cases Management System",
-    description: "A Python-MySQL system for managing and analyzing COVID-19 cases, featuring multilevel authentication, data entry, analysis tools, and graphical visualizations.",
-    image: "https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=800",
+    description: "A Python-MySQL system for managing COVID-19 cases, featuring multilevel authentication, data entry, analysis tools, and graphical visualizations for efficient case tracking.",
+    image: "https://images.pexels.com/photos/139398/thermometer-headache-pain-pills-139398.jpeg?auto=compress&cs=tinysrgb&w=800",
     technologies: ["Python", "MySQL"],
-    github: "https://github.com/edwinjojie/covid-management"
+    github: "https://github.com/edwinjojie/Covid-Case-Management-system"
   },
   {
     title: "Custom Trip Planning Website",
-    description: "A dynamic trip planning website for tourists, offering maps, transportation options, authorized guides, a chatbot for trip discussions, and a translator for enhanced user experience.",
+    description: "A MERN stack website for tourists, offering dynamic trip planning with maps, transportation, guides, a chatbot, and a translator for an enhanced travel experience.",
     image: "https://images.pexels.com/photos/346715/pexels-photo-346715.jpeg?auto=compress&cs=tinysrgb&w=800",
     technologies: ["React", "Node.js", "Express", "MongoDB"],
-    github: "https://github.com/edwinjojie/trip-planner",
-    live: "https://trip-planner-demo.netlify.app"
+    github: "https://github.com/edwinjojie/tourist_guidance_website"
   },
   {
     title: "Waste Disposal Detection System",
-    description: "An AI-driven system using vision-based models to monitor illegal waste disposal via surveillance cameras, enabling authorities to enforce regulations and promote a cleaner city.",
-    image: "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=800",
-    technologies: ["OpenCV", "TensorFlow", "PyTorch", "YOLO", "Tesseract"],
-    github: "https://github.com/edwinjojie/waste-disposal",
-    live: "https://waste-disposal-demo.netlify.app"
+    description: "A surveillance system detecting illegal waste disposal by humans and vehicles using YOLOv8 and custom tracking. Generates Excel reports with image evidence for city-wide enforcement.",
+    image: "https://thumbs.dreamstime.com/b/view-busy-crowded-street-new-york-usa-early-evening-manhattan-city-all-traffic-jams-many-tourists-people-walking-55241984.jpg",
+    technologies: ["Python", "OpenCV", "YOLOv8", "NumPy", "Pandas", "OpenPyXL"],
+    github: "https://github.com/edwinjojie/Smart_city_project"
+  },
+  {
+    title: "Vehicle Trash Dumping Detection & Alerting",
+    description: "A vehicle-specific trash dumping detection system using YOLOv8, MiDaS depth estimation, and a Flask web interface. Provides CSV/Excel reports and video evidence for targeted enforcement.",
+    image: pic2,
+    technologies: ["Python", "OpenCV", "YOLOv8", "MiDaS", "Flask", "Pandas"],
+    github: "https://github.com/edwinjojie/miniproject",
+    live: "https://peaceful-chimera-2e159b.netlify.app"
   },
   {
     title: "Tail Assignment Problem in Flight Scheduling",
-    description: "A sustainable flight scheduling solution using Reinforcement Learning and OR Tools, optimizing assignments for flights, aircraft, and crews with a focus on environmental impact.",
+    description: "A sustainable flight scheduling solution using Reinforcement Learning and OR Tools, optimizing assignments for flights, aircraft, and crews with an environmental focus.",
     image: "https://images.pexels.com/photos/46148/aircraft-jet-landing-cloud-46148.jpeg?auto=compress&cs=tinysrgb&w=800",
     technologies: ["Python", "Reinforcement Learning", "OR Tools"],
-    github: "https://github.com/edwinjojie/tail-assignment",
-    live: "https://tail-assignment-demo.netlify.app"
+    github: "https://github.com/edwinjojie/tail_assignment",
+    live: "https://snazzy-pony-dd40ba.netlify.app"
+  },
+  {
+    title: "Text Recognition from Images",
+    description: "A computer vision project recognizing text in images, including handwritten notes and number plates, using AI models to enable accurate text extraction.",
+    image: "https://images.pexels.com/photos/2085831/pexels-photo-2085831.jpeg?auto=compress&cs=tinysrgb&w=800",
+    technologies: ["Python", "OpenCV", "TensorFlow", "PyTorch", "Tesseract"],
+    github: "https://github.com/edwinjojie/CGIP_project"
   }
 ];
 
@@ -57,7 +72,7 @@ const Projects = () => {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2 text-gray-800 dark:text-gray-200">{project.title}</h3>
-                <p className="text-gray-600 dark:text-gray-400 mb-4 h-20 overflow-hidden">{project.description}</p>
+                <p className="text-gray-600 dark:text-gray-400 mb-4 h-24 overflow-auto px-1 scrollbar-thin scrollbar-thumb-gray-400 dark:scrollbar-thumb-gray-600 scrollbar-track-gray-100 dark:scrollbar-track-gray-800">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.technologies.map((tech, i) => (
                     <span
