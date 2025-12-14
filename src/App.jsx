@@ -39,25 +39,20 @@ function App() {
   ];
 
   const socialLinks = [
-    { 
-      icon: <Mail size={20} />, 
+    {
+      icon: <Mail size={20} />,
       href: 'mailto:edwinjojie04@gmail.com',
       label: 'Email'
     },
-    { 
-      icon: <Linkedin size={20} />, 
+    {
+      icon: <Linkedin size={20} />,
       href: 'https://linkedin.com/in/edwin-jojie-67b3b4255',
       label: 'LinkedIn'
     },
-    { 
-      icon: <Github size={20} />, 
+    {
+      icon: <Github size={20} />,
       href: 'https://github.com/edwinjojie',
       label: 'GitHub'
-    },
-    { 
-      icon: <Globe size={20} />, 
-      href: 'https://edwinjojie.netlify.app',
-      label: 'Portfolio'
     },
   ];
 
@@ -69,7 +64,7 @@ function App() {
           <a href="#" className="text-2xl font-bold text-blue-600 dark:text-blue-400">
             Edwin Jojie
           </a>
-          
+
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <ul className="flex space-x-8">
@@ -92,7 +87,7 @@ function App() {
               {darkMode ? <Sun size={20} /> : <Moon size={20} />}
             </button>
           </div>
-          
+
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center space-x-4">
             <button
@@ -111,7 +106,7 @@ function App() {
             </button>
           </div>
         </div>
-        
+
         {/* Mobile Navigation */}
         {menuOpen && (
           <div className="md:hidden absolute top-full left-0 right-0 bg-white dark:bg-gray-800 shadow-md py-4 px-4 z-50">

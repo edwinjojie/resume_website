@@ -32,18 +32,6 @@ function About() {
               <p className="text-gray-700 dark:text-gray-300">Mar Dionysius Senior Secondary School, Mallappally — 92%</p>
               <p className="text-sm text-gray-500 dark:text-gray-400">Until 2020</p>
             </div>
-
-            <p className="text-lg text-gray-700 dark:text-gray-300 mt-6">
-              Explore my work at{' '}
-              <a
-                href="https://edwinjojie.netlify.app"
-                className="text-blue-600 dark:text-blue-400 hover:underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                edwinjojie.netlify.app
-              </a>.
-            </p>
           </div>
         </div>
       </div>

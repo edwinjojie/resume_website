@@ -6,7 +6,7 @@ const Contact = () => {
     email: '',
     message: ''
   });
-  
+
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitMessage, setSubmitMessage] = useState(null);
 
@@ -20,7 +20,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     // Simulate form submission
     setTimeout(() => {
       setIsSubmitting(false);
@@ -28,13 +28,13 @@ const Contact = () => {
         type: 'success',
         text: 'Your message has been sent! I will get back to you soon.'
       });
-      
+
       setFormData({
         name: '',
         email: '',
         message: ''
       });
-      
+
       // Reset message after 5 seconds
       setTimeout(() => {
         setSubmitMessage(null);
@@ -78,9 +78,9 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-gray-800 dark:text-gray-200">LinkedIn</h4>
-                  <a 
-                    href="https://www.linkedin.com/in/edwin-jojie-67b3b4255" 
-                    target="_blank" 
+                  <a
+                    href="https://www.linkedin.com/in/edwin-jojie-67b3b4255"
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 dark:text-blue-400 hover:underline"
                   >
@@ -96,9 +96,9 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-gray-800 dark:text-gray-200">GitHub</h4>
-                  <a 
-                    href="https://github.com/edwinjojie" 
-                    target="_blank" 
+                  <a
+                    href="https://github.com/edwinjojie"
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 dark:text-blue-400 hover:underline"
                   >
@@ -106,32 +106,14 @@ const Contact = () => {
                   </a>
                 </div>
               </div>
-              <div className="flex items-start">
-                <div className="bg-blue-100 dark:bg-blue-900 p-3 rounded-full mr-4">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-600 dark:text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                </div>
-                <div>
-                  <h4 className="text-lg font-semibold text-gray-800 dark:text-gray-200">Personal Website</h4>
-                  <a 
-                    href="https://zingv-arithmetic-5cc08b.netlify.app" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-blue-600 dark:text-blue-400 hover:underline"
-                  >
-                    zingv-arithmetic-5cc08b.netlify.app
-                  </a>
-                </div>
-              </div>
+
             </div>
           </div>
           <div>
             <form onSubmit={handleSubmit} className="bg-gray-50 dark:bg-gray-700 rounded-xl p-6 shadow-sm">
               {submitMessage && (
-                <div className={`mb-6 p-4 rounded-lg ${
-                  submitMessage.type === 'success' ? 'bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200' : 'bg-red-100 dark:bg-red-900 text-red-800 dark:text-red-200'
-                }`}>
+                <div className={`mb-6 p-4 rounded-lg ${submitMessage.type === 'success' ? 'bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200' : 'bg-red-100 dark:bg-red-900 text-red-800 dark:text-red-200'
+                  }`}>
                   {submitMessage.text}
                 </div>
               )}
@@ -180,9 +162,8 @@ const Contact = () => {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className={`w-full px-6 py-3 bg-blue-600 dark:bg-blue-500 text-white rounded-lg font-medium shadow-sm hover:bg-blue-700 dark:hover:bg-blue-600 transition-colors ${
-                  isSubmitting ? 'opacity-70 cursor-not-allowed' : ''
-                }`}
+                className={`w-full px-6 py-3 bg-blue-600 dark:bg-blue-500 text-white rounded-lg font-medium shadow-sm hover:bg-blue-700 dark:hover:bg-blue-600 transition-colors ${isSubmitting ? 'opacity-70 cursor-not-allowed' : ''
+                  }`}
               >
                 {isSubmitting ? 'Sending...' : 'Send Message'}
               </button>
