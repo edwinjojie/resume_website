@@ -2,34 +2,47 @@ import React from 'react';
 
 const experiences = [
   {
-    title: "Full Stack Developer Intern",
+    title: "Project Trainee",
+    company: "IBS Software",
+    period: "Jun 2025 - Oct 2025",
+    description: [
+      "Worked on enterprise-scale aviation software products",
+      "Redesigned and developed a proof-of-concept for an existing production system",
+      "Explored and integrated AI-assisted workflows into enterprise software",
+      "Gained exposure to Java, Spring Boot, Maven, and microservices-based architectures",
+      "Collaborated within Agile teams and large codebases"
+    ],
+    technologies: ["Java", "Spring Boot", "Maven", "Microservices"]
+  },
+  {
+    title: "IT / AI Intern",
+    company: "Smart City Thiruvananthapuram Limited",
+    period: "Dec 2024 - Jan 2025",
+    description: [
+      "Designed and deployed a real-world computer vision system to detect illegal trash dumping using surveillance footage",
+      "Built event-based logic combining detection, tracking, depth estimation, and temporal reasoning",
+      "Optimized performance under low-compute constraints using real CCTV data"
+    ],
+    technologies: ["OpenCV", "YOLO", "Depth Estimation", "Tracking"]
+  },
+  {
+    title: "Full-Stack Developer Intern",
     company: "Magnory Pvt Ltd",
     period: "Dec 2024 - Jan 2025",
     description: [
-      "Developed real-world applications customized for client requirements",
-      "Designed and built integrated web and desktop interfaces using React, Node.js, and Electron",
-      "Implemented Firebase as the backend for efficient data management"
+      "Developed production-grade web and desktop applications using React, Node.js, Electron, and Firebase",
+      "Built integrated dashboards and client-facing systems",
+      "Worked on application structure, data flows, and usability"
     ],
     technologies: ["React", "Node.js", "Electron", "Firebase"]
   },
   {
-    title: "AI/ML Intern",
-    company: "Smart City Pvt Ltd, Trivandrum, Kerala",
-    period: "Dec 2024 - Present",
-    description: [
-      "Developed a deployable system to monitor illegal trash dumping using city surveillance cameras, enhancing urban cleanliness",
-      "Utilized vision-based AI models, experimenting with multiple frameworks to identify the optimal solution",
-      "Contributed to creating a greener, law-compliant city environment through AI-driven monitoring"
-    ],
-    technologies: ["OpenCV", "TensorFlow", "PyTorch", "YOLO", "Tesseract"]
-  },
-  {
     title: "Student Intern",
-    company: "ICT, Trivandrum, Kerala",
+    company: "ICT Academy of Kerala",
     period: "Jul 2024 - Aug 2024",
     description: [
-      "Applied MERN full-stack development to real-world scenarios, creating functional web applications",
-      "Built multiple web interfaces and applications tailored to project requirements"
+      "Built functional MERN stack web applications",
+      "Strengthened frontend–backend integration skills"
     ],
     technologies: ["React", "Node.js", "Express", "MongoDB"]
   }

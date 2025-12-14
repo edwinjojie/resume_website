@@ -2,19 +2,19 @@ import React from 'react';
 
 const achievements = [
   {
+    title: "Best Project Award — Define Hackathon",
+    date: "2025",
+    description: "Awarded for creating an AI-driven flight scheduling system that optimizes aircraft and crew assignments using reinforcement learning."
+  },
+  {
     title: "Smart India Hackathon Prelims Qualified",
-    date: "May 2024",
-    description: "Qualified for the prelims of the Smart India Hackathon, showcasing strong problem-solving and technical skills in a competitive national-level event."
+    date: "2024",
+    description: "Qualified for the prelims execution round, demonstrating strong technical capability in solving real-world problem statements."
   },
   {
-    title: "Define Hackathon Best Project Award",
-    date: "March 2025",
-    description: "Awarded Best Project with a ₹10,000 cash prize for an AI-driven flight scheduling solution under the 'AI in Airlines' theme, demonstrating expertise in innovative AI applications."
-  },
-  {
-    title: "NPTEL Certifications",
-    date: "Jan-Mar 2024",
-    description: "Completed certifications in 'Introduction to Internet of Things' and 'Cloud Computing and Distributed Systems', enhancing knowledge in emerging technologies."
+    title: "Technical Certifications",
+    date: "Ongoing",
+    description: "Cloud Computing & Distributed Systems, Introduction to Internet of Things, SQL Beginner to Guru (MySQL)."
   }
 ];
 

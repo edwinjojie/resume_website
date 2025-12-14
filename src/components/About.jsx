@@ -10,23 +10,38 @@ function About() {
           </h2>
           <div className="bg-gray-50 dark:bg-gray-700 rounded-xl p-6 md:p-8 shadow-sm">
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-              I'm a versatile software developer driven by a passion for AI/ML and full-stack development. I excel in building intelligent systems using computer vision and deep learning, alongside crafting user-friendly, scalable web applications with the MERN stack. My goal is to leverage technology to address real-world challenges through continuous learning and innovation.
+              I build real-world AI systems — from computer vision pipelines and agent workflows to distributed backend architectures and full-stack platforms. My work focuses on making AI systems reliable under real constraints such as low compute, noisy data, and time pressure. I enjoy designing systems, reading research, and turning ideas into production-ready platforms.
             </p>
-            <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-              My interests include developing AI/ML solutions for practical problems, designing full-stack web applications, and exploring cybersecurity and robotics. I’m always eager to tackle new challenges and collaborate on innovative projects.
-            </p>
-            <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-              Currently, I’m pursuing a B.Tech at Mar Baselios College of Engineering and Technology, Nalanchira, Thiruvananthapuram, Kerala (2022-Present). I completed my Higher Secondary education at Placid Vidya Vihar, Changanassery, Kerala (2020-2022), and my secondary schooling at Mar Dionysius Senior Secondary School, Mallappally, Kerala (until 2020).
-            </p>
-            <p className="text-lg text-gray-700 dark:text-gray-300">
+
+            <h3 className="text-xl font-bold mb-4 text-gray-800 dark:text-gray-200">Education</h3>
+
+            <div className="mb-6">
+              <h4 className="font-semibold text-lg text-blue-600 dark:text-blue-400">B.Tech in Computer Science & Engineering</h4>
+              <p className="text-gray-700 dark:text-gray-300">Mar Baselios College of Engineering and Technology (Autonomous), Thiruvananthapuram</p>
+              <p className="text-sm text-gray-500 dark:text-gray-400">2022 – 2026</p>
+            </div>
+
+            <div className="mb-6">
+              <h4 className="font-semibold text-lg text-gray-800 dark:text-gray-200">Higher Secondary (CBSE)</h4>
+              <p className="text-gray-700 dark:text-gray-300">Placid Vidya Vihar, Mallappally — 88.6%</p>
+              <p className="text-sm text-gray-500 dark:text-gray-400">2020 – 2022</p>
+            </div>
+
+            <div className="mb-6">
+              <h4 className="font-semibold text-lg text-gray-800 dark:text-gray-200">Secondary School (CBSE)</h4>
+              <p className="text-gray-700 dark:text-gray-300">Mar Dionysius Senior Secondary School, Mallappally — 92%</p>
+              <p className="text-sm text-gray-500 dark:text-gray-400">Until 2020</p>
+            </div>
+
+            <p className="text-lg text-gray-700 dark:text-gray-300 mt-6">
               Explore my work at{' '}
               <a
-                href="https://zingv-arithmetic-5cc08b.netlify.app"
+                href="https://edwinjojie.netlify.app"
                 className="text-blue-600 dark:text-blue-400 hover:underline"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                zingv-arithmetic-5cc08b.netlify.app
+                edwinjojie.netlify.app
               </a>.
             </p>
           </div>

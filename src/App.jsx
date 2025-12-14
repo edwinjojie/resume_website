@@ -46,7 +46,7 @@ function App() {
     },
     { 
       icon: <Linkedin size={20} />, 
-      href: 'https://www.linkedin.com/in/edwin-jojie-67b3b4255',
+      href: 'https://linkedin.com/in/edwin-jojie-67b3b4255',
       label: 'LinkedIn'
     },
     { 
@@ -56,8 +56,8 @@ function App() {
     },
     { 
       icon: <Globe size={20} />, 
-      href: 'https://zingy-arithmetic-5cc08b.netlify.app/',
-      label: 'Personal Website'
+      href: 'https://edwinjojie.netlify.app',
+      label: 'Portfolio'
     },
   ];
 

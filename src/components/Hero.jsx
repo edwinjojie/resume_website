@@ -11,10 +11,10 @@ function Hero({ socialLinks }) {
             Edwin Jojie Varghese
           </h1>
           <h2 className="text-2xl md:text-3xl font-medium text-gray-700 dark:text-gray-300 mb-6">
-            Software Developer
+            AI / ML Engineer · Full-Stack Systems Engineer
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-lg">
-            Passionate software developer with a strong focus on AI/ML and full-stack development. Dedicated to solving real-world problems through innovative computer vision, deep learning, and scalable web applications, I thrive on creating impactful solutions that blend technology and creativity.
+            I build real-world AI systems — from computer vision pipelines and agent workflows to distributed backend architectures and full-stack platforms. My work focuses on making AI systems reliable under real constraints such as low compute, noisy data, and time pressure. I enjoy designing systems, reading research, and turning ideas into production-ready platforms.
           </p>
           <div className="flex space-x-4 mb-8">
             {socialLinks.map((link) => (

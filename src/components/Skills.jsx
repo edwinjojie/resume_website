@@ -2,20 +2,24 @@ import React from 'react';
 
 const skillCategories = [
   {
-    name: "Frontend",
-    skills: ["HTML", "CSS", "JavaScript", "React", "TypeScript", "Tailwind CSS"]
+    name: "Computer Vision & AI",
+    skills: ["YOLOv8", "MiDaS", "OpenCV", "Object Detection & Tracking", "Depth Estimation", "OCR (Tesseract)", "PyTorch", "TensorFlow"]
   },
   {
-    name: "Backend",
-    skills: ["Node.js", "Express", "MongoDB", "MySQL", "PostgreSQL"]
+    name: "AI / ML Engineering",
+    skills: ["Fine-tuning pretrained models", "Dataset cleaning & labeling", "Reinforcement Learning", "Optimization", "OR Tools"]
   },
   {
-    name: "AI/ML",
-    skills: ["Computer Vision", "Deep Learning", "TensorFlow", "PyTorch", "OpenCV", "YOLO", "Tesseract", "Reinforcement Learning", "OR Tools"]
+    name: "Backend & Systems",
+    skills: ["Node.js", "Express", "FastAPI", "Java", "Spring Boot", "Async pipelines", "JWT/RBAC", "DB Schema Design", "Logging & Observability"]
   },
   {
-    name: "Tools & Others",
-    skills: ["Git", "Python", "SQL","Postman", "VS Code"]
+    name: "Frontend & Platforms",
+    skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Shadcn UI", "Dashboard UI"]
+  },
+  {
+    name: "Tools",
+    skills: ["Python", "SQL", "Git", "Postman", "VS Code"]
   }
 ];
 
