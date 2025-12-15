@@ -1,4 +1,5 @@
 import React from 'react';
+import SectionReveal from './SectionReveal';
 
 const skillCategories = [
   {
@@ -32,21 +33,23 @@ function Skills() {
         </h2>
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {skillCategories.map((category, index) => (
-            <div key={index} className="bg-gray-50 dark:bg-gray-700 rounded-xl p-6 shadow-sm">
-              <h3 className="text-xl font-bold mb-6 text-center text-gray-800 dark:text-gray-200">
-                {category.name}
-              </h3>
-              <div className="flex flex-wrap gap-2">
-                {category.skills.map((skill, skillIndex) => (
-                  <span
-                    key={skillIndex}
-                    className="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 rounded-full"
-                  >
-                    {skill}
-                  </span>
-                ))}
+            <SectionReveal key={index} delay={index * 0.1}>
+              <div className="bg-gray-50 dark:bg-gray-700 rounded-xl p-6 shadow-sm h-full">
+                <h3 className="text-xl font-bold mb-6 text-center text-gray-800 dark:text-gray-200">
+                  {category.name}
+                </h3>
+                <div className="flex flex-wrap gap-2 justify-center">
+                  {category.skills.map((skill, skillIndex) => (
+                    <span
+                      key={skillIndex}
+                      className="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 rounded-full"
+                    >
+                      {skill}
+                    </span>
+                  ))}
+                </div>
               </div>
-            </div>
+            </SectionReveal>
           ))}
         </div>
       </div>
