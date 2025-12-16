@@ -8,7 +8,6 @@ import Projects from './components/Projects';
 import Achievements from './components/Achievements';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import ThreeBackground from './components/ThreeBackground';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -52,17 +51,15 @@ function App() {
     },
     {
       icon: <Github size={20} />,
-      title: "GitHub",
       href: 'https://github.com/edwinjojie',
       label: 'GitHub'
     },
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300 relative">
-      <ThreeBackground />
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300">
       {/* Navigation */}
-      <nav className="sticky top-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md py-4 shadow-sm border-b border-gray-100 dark:border-gray-800">
+      <nav className="sticky top-0 z-50 bg-white/80 dark:bg-gray-800/80 backdrop-blur-md py-4 shadow-sm">
         <div className="container mx-auto px-4 flex justify-between items-center">
           <a href="#" className="text-2xl font-bold text-blue-600 dark:text-blue-400">
             Edwin Jojie
